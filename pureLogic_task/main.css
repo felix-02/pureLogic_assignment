@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utility classes */
+.nolinkstyle {
+  text-decoration: none;
+}
+.noliststyle {
+  list-style: none;
+}
+.bold {
+  font-weight: bold;
+}
+.cursor {
+  cursor: pointer;
+  margin-right: 10px;
+}
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  flex: 1;
+  margin: 4px;
+  padding: 4px;
+}
+.button-wrapper {
+  width: 25vw;
+  display: flex;
+}
+.verticle {
+  vertical-align: middle;
+}
+.btn {
+  flex: 1;
+}
+
+/* header styles */
+header {
+  display: flex;
+  height: 8vh;
+}
+.header-div-1 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-div-2 {
+  flex: 3;
+}
+.header-div-3 {
+  flex: 1;
+}
+.header-div-3 ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.header-div-1 a {
+  color: blue;
+}
+.header-div-2 ul li a,
+.header-div-3 ul li a {
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+  color: black;
+}
+.header-div-2 ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+/* section-1 styles */
+.section-1 {
+  display: flex;
+  height: 70vh;
+  background-color: #f2f3f4;
+}
+.section-1-div-1 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.section-1-div-1 img {
+  width: 40vw;
+}
+.section-1-div-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cnt {
+  width: 25vw;
+  height: 20vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.cnt img {
+  margin: 5px 5px 10px 5px;
+}
+.cnt h3,
+.cnt p {
+  margin: 5px;
+  color: #414141;
+}
+.fl {
+  display: flex;
+  background-color: white;
+  color: #49739a;
+  text-transform: capitalize;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  width: 25vw;
+  height: 15vh;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+.section-2 {
+  display: flex;
+  height: 70vh;
+  background-image: url("./harrison-moore-A77Y_xYkq6c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.section-2 .section-2-div-1 {
+  flex: 1;
+}
+.section-2 .section-2-div-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.2rem;
+}
+.section-2-div-2 div {
+  height: 50%;
+}
+.section-2-div-2 img {
+  width: 80px;
+  margin: 15px;
+  padding: -83px;
+}
+.section-2-div-2 h3 {
+  margin: 15px;
+  color: white;
+}
+.section-2-div-2 p {
+  margin: 15px;
+  color: white;
+}
+.section-3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 10%;
+}
+.section-3-div-1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  color: #414141;
+  margin-bottom: 60px;
+  font-size: 1.2rem;
+}
+.large {
+  padding: 50px;
+}
+.large h3 {
+  margin: 10px;
+}
+.large p {
+  margin: 10px;
+}
+.large div {
+  margin: 10px;
+}
+.section-3-div-2 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.section-3-div-3 {
+  display: flex;
+  flex: 1;
+  margin-bottom: 60px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.section-3-div-4 {
+  display: flex;
+  flex: 1;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.section-3-div-5 {
+  display: flex;
+  flex: 1;
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.section-3-div-6 {
+  display: flex;
+  flex: 1;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-3-div-7 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.section-3-div-8 {
+  display: flex;
+  flex: 1;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.section-4 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  background-image: url("./harrison-moore-A77Y_xYkq6c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #49739a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.section-4-div-1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.section-4-div-1 div {
+  padding: 50px;
+  height: 30vh;
+}
+.section-4-div-1 div h3,
+.section-4-div-1 div p,
+.section-4-div-1 div a {
+  margin: 15px;
+  color: #49739a;
+}
+.section-4-div-2 {
+  flex: 1;
+}
+.h3-div {
+  width: 80vw;
+  margin: 40px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.h3-div h3 {
+  margin-left: 15px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 50px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.card {
+  width: 26.5vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding: 15px;
+}
+.card h4,
+.card p,
+.card i {
+  margin: 10px;
+}
+.card i {
+  color: lightskyblue;
+}
+.reviews {
+  height: 45vh;
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f6f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.align {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #414141;
+}
+.question-panel {
+  display: flex;
+  width: 80vw;
+  margin: 70px auto;
+}
+.question-panel div:nth-child(1) {
+  flex: 1;
+  color: #49739a;
+  margin-right: 60px;
+}
+.question-panel div:nth-child(2) {
+  flex: 1;
+  color: #414141;
+}
+.question-panel-div-1 ul li {
+  border-bottom: 1px solid lightslategray;
+  padding: 10px;
+}
+.question-panel-div-1 ul li:hover {
+  color: #314d68;
+  cursor: default;
+}
+.current {
+  background-color: black;
+  color: white !important ;
+}
+
+.blue-div {
+  background-color: #456e98;
+  color: white;
+  width: 80vw;
+  height: 13vh;
+  margin: 40px auto;
+  display: flex;
+}
+.blue-div div:nth-child(1) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.blue-div div:nth-child(1) p {
+  padding-left: 50px;
+}
+.blue-div div:nth-child(2) {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-div-1 {
+  width: 80vw;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  color: #49739a;
+  box-sizing: border-box;
+}
+.nav-div-1 a {
+  color: #49739a;
+}
+.left {
+  flex: 1.2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-div-2 {
+  width: 80vw;
+  height: 6vh;
+  margin: auto;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  color: #49739a;
+  text-transform: capitalize;
+}
+.nav-div-2 a {
+  color: #49739a;
+  text-transform: capitalize;
+}
+.nav-div-2-div-1 {
+  flex: 1.2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-div-2-div-2 {
+  flex: 1;
+}
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+footer div {
+  width: 80vw;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #49739a;
+}
+.down-app p {
+  margin-right: 15px;
+  display: flex;
+}
+nav {
+  border-top: 1px solid lightgray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+.common {
+  border-radius: 3px;
+  background-color: white;
+  height: 100%;
+  margin: 10px;
+}
+
+.common img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.common-div-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+.common-div-2 {
+  margin: 15px;
+  margin-top: 30px;
+  color: #49739a;
+}
+.common-div-2 p,
+.common-div-2 h4 {
+  margin: 4px;
+}
+.common-div-1 h3 {
+  color: #49739a;
+  text-transform: capitalize;
+}
+.nav-div-1 h4 {
+  margin: 20px 0 20px 0;
+}
+.nav-div-1 ul li {
+  margin: 10px 0 10px 0;
+  text-transform: capitalize;
+}
+.nav-div-1 select {
+  margin: 20px 0 10px 0;
+  border: none;
+  border-radius: 0px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.nav-div-1 div {
+  margin: 5px 0 20px 0;
+}
+.solution {
+  margin-right: 30px;
+}
